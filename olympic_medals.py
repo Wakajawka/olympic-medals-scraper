@@ -5,6 +5,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from datetime import datetime
 import io
+import matplotlib.pyplot as plt
 
 url = "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
 db_name = 'medals.db'
@@ -56,7 +57,18 @@ def run_query(query_statement, sql_connection):
     query_output = pd.read_sql_query(query_statement, sql_connection)
     print("=== TOP 20 ===")
     print(query_output.to_string(index=False))    
-   
+def visualize(df, top_n=20):
+    top = df.nlargest(top_n, 'Gold')
+    plt.figure(figsize=(10, 6))
+    plt.bar(top['Nation'], top['Gold'], color='#FFD700', edgecolor='black')
+    plt.bar(top['Nation'], top['Silver'], bottom=top['Gold'], color='#C0C0C0', edgecolor='black')
+    plt.bar(top['Nation'], top['Bronze'], bottom=top['Gold'] + top['Silver'], color='#CD7F32', edgecolor='black')
+    plt.title(f"Top {top_n} Nations by Medals")
+    plt.ylabel("Medals")
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig('medals_chart.png', dpi=150)
+    plt.show()
 table_attribs = ["No.", "Nation", "Gold", "Silver", "Bronze", "Total"]
 log_progress("Preliminaries complete. Initiating extraction process.")
 df = extract(url, table_attribs)
@@ -69,8 +81,9 @@ load_to_db(df, sql_connection, table_name)
 log_progress("Data loaded to database.")
 log_progress('Data succesfully loaded to db.')
 query_statement = f"SELECT * FROM {table_name} LIMIT 30"   
-print(f"Total rows in df: {len(df)}")   
+visualize(df)     
 run_query(query_statement, sql_connection)
 sql_connection.close()
 log_progress("Process complete.")   
+
 
