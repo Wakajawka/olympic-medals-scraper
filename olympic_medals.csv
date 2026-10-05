@@ -1,0 +1,164 @@
+No.,Nation,Gold,Silver,Bronze,Total
+1,United States,1232,1013,892,3137
+2,Soviet Union,473,376,355,1204
+3,China,330,262,227,819
+4,Germany,327,326,327,980
+5,Great Britain,318,346,361,1025
+6,France,293,329,363,985
+7,Italy,281,250,298,829
+8,Norway,229,199,188,616
+9,Sweden,224,238,247,709
+10,Japan,211,198,233,642
+11,East Germany,192,165,162,519
+12,Russia,192,163,184,539
+13,Australia,189,198,232,619
+14,Hungary,189,163,188,540
+15,Netherlands,174,168,182,524
+16,Canada,161,196,240,597
+17,Finland,146,151,189,486
+18,South Korea,145,134,130,409
+19,Switzerland,122,138,143,403
+20,Austria,97,131,139,367
+21,Romania,93,101,124,318
+22,Cuba,86,70,88,244
+23,Poland,80,103,152,335
+24,West Germany,67,82,94,243
+25,New Zealand,65,44,57,166
+26,Bulgaria,58,91,90,239
+27,Spain,55,77,63,195
+28,Unified Team,54,44,37,135
+29,Czechoslovakia,51,57,60,168
+30,Denmark,50,82,84,216
+31,Belgium,49,59,69,177
+32,Brazil,41,49,81,171
+33,Ukraine,41,43,76,160
+34,Turkey,41,29,41,111
+35,Kenya,39,45,40,124
+36,United Team of Germany,36,60,41,137
+37,Greece,36,46,47,129
+38,Czech Republic,34,35,42,111
+39,South Africa,28,36,31,95
+40,Jamaica,27,39,28,94
+41,Iran,27,29,32,88
+42,Yugoslavia,26,32,29,87
+43,ROC,25,40,38,103
+44,Ethiopia,24,16,22,62
+45,Argentina,22,27,31,80
+46,Belarus,21,37,47,105
+47,Croatia,20,21,19,60
+48,Uzbekistan,19,8,23,50
+49,Kazakhstan,17,28,42,87
+50,North Korea,16,19,28,63
+51,Slovenia,16,19,24,59
+52,Ireland,15,10,17,42
+53,Slovakia,14,19,10,43
+54,Estonia,14,12,19,45
+55,Mexico,13,27,37,77
+56,Georgia,13,16,19,48
+57,Thailand,11,11,19,41
+58,Indonesia,10,14,16,40
+59,India,10,10,21,41
+60,Azerbaijan,9,16,31,56
+61,Egypt,9,12,20,41
+62,Chinese Taipei,9,11,23,43
+63,Serbia,9,8,11,28
+64,Morocco,8,5,13,26
+65,Bahamas,8,2,6,16
+66,Algeria,7,4,9,20
+67,Portugal,6,11,15,32
+68,Lithuania,6,9,15,30
+69,Tunisia,6,4,8,18
+70,Colombia,5,16,17,38
+71,Latvia,5,15,13,33
+72,Uganda,5,5,3,13
+73,Israel,4,6,10,20
+74,Dominican Republic,4,5,6,15
+75,Ecuador,4,4,2,10
+76,Hong Kong,4,3,6,13
+77,Pakistan,4,3,4,11
+78,Bahrain,4,3,1,8
+79,Mixed team,4,2,4,10
+80,Nigeria,3,11,13,27
+81,Chile,3,8,4,15
+82,Venezuela,3,7,9,19
+83,Trinidad and Tobago,3,5,11,19
+84,Philippines,3,5,10,18
+85,Australasia,3,4,5,12
+86,Zimbabwe,3,4,1,8
+87,Cameroon,3,1,2,6
+88,Kosovo,3,1,1,5
+89,Mongolia,2,12,17,31
+90,Armenia,2,11,9,22
+91,Olympic Athletes from Russia,2,6,9,17
+92,Serbia and Montenegro,2,4,3,9
+93,Puerto Rico,2,2,8,12
+94,Liechtenstein,2,2,6,10
+94,Uruguay,2,2,6,10
+96,Qatar,2,2,5,9
+97,Fiji,2,1,1,4
+98,Russian Empire,1,4,3,8
+99,Individual Neutral Athletes,1,4,1,6
+100,Peru,1,3,1,5
+100,Vietnam,1,3,1,5
+102,Luxembourg,1,3,0,4
+103,Singapore,1,2,3,6
+104,Botswana,1,2,1,4
+104,Jordan,1,2,1,4
+106,Tajikistan,1,1,5,7
+107,Grenada,1,1,3,5
+107,Ivory Coast,1,1,3,5
+109,Costa Rica,1,1,2,4
+109,Panama,1,1,2,4
+109,Syria,1,1,2,4
+112,Guatemala,1,1,1,3
+113,Burundi,1,1,0,2
+113,Saint Lucia,1,1,0,2
+115,Bermuda,1,0,1,2
+115,Independent Olympic Athletes,1,0,1,2
+115,Mozambique,1,0,1,2
+115,Suriname,1,0,1,2
+115,United Arab Emirates,1,0,1,2
+120,Dominica,1,0,0,1
+121,Malaysia,0,8,7,15
+122,Kyrgyzstan,0,5,8,13
+123,Namibia,0,5,0,5
+124,Moldova,0,3,7,10
+125,Iceland,0,2,2,4
+125,Lebanon,0,2,2,4
+125,Saudi Arabia,0,2,2,4
+128,Cyprus,0,2,0,2
+128,Sri Lanka,0,2,0,2
+128,Tanzania,0,2,0,2
+131,Ghana,0,1,4,5
+132,Bohemia,0,1,3,4
+133,Independent Olympic Participants,0,1,2,3
+133,San Marino,0,1,2,3
+133,Zambia,0,1,2,3
+136,Haiti,0,1,1,2
+136,Niger,0,1,1,2
+136,North Macedonia,0,1,1,2
+139,Gabon,0,1,0,1
+139,Montenegro,0,1,0,1
+139,Netherlands Antilles,0,1,0,1
+139,Paraguay,0,1,0,1
+139,Samoa,0,1,0,1
+139,Senegal,0,1,0,1
+139,Sudan,0,1,0,1
+139,Tonga,0,1,0,1
+139,Turkmenistan,0,1,0,1
+139,Virgin Islands,0,1,0,1
+149,Kuwait,0,0,3,3
+150,Afghanistan,0,0,2,2
+150,Albania,0,0,2,2
+150,British West Indies,0,0,2,2
+153,Barbados,0,0,1,1
+153,Burkina Faso,0,0,1,1
+153,Cape Verde,0,0,1,1
+153,Djibouti,0,0,1,1
+153,Eritrea,0,0,1,1
+153,Guyana,0,0,1,1
+153,Iraq,0,0,1,1
+153,Mauritius,0,0,1,1
+153,Refugee Olympic Team,0,0,1,1
+153,Togo,0,0,1,1
+Totals (162 entries),Totals (162 entries),7077,7046,7552,21675
