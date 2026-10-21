@@ -45,7 +45,7 @@ def extract(url, table_attribs):
 
     for col in ['Gold', 'Silver', 'Bronze', 'Total']:
         df[col] = df[col].astype(str).str.replace(r'[^\d]', '', regex=True).astype(int)
-
+    
     return df    
 def load_to_csv(df, output_path):
     df.to_csv(output_path, index=False)
@@ -84,6 +84,6 @@ query_statement = f"SELECT * FROM {table_name} LIMIT 30"
 visualize(df)     
 run_query(query_statement, sql_connection)
 sql_connection.close()
-log_progress("Process complete.")   
+log_progress("Process complete.")
 
 
